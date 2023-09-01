@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* TextSlider Component */
+.text-slider {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  color: black;
+  font-weight: bold;
+}
+
+.text-slider-content {
+  display: inline-block;
+  animation: moveText 20s linear infinite;
+}
+
+.black-text {
+  color: black;
+}
+
+.red-text {
+  color: red;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* CustomerCare.css */
+
+
+.customer-care {
+  background-color: rgb(75, 71, 71);
+  padding: 10px;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  text-align: center; /* Center text inside child elements */
+}
+
+.customer-care-content {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: center; /* Center the child elements horizontally */
+}
+
+.white-text {
+  color: white;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.white-text.bold {
+  font-weight: bold;
+}
+
+.large-text {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+.large-icon {
+  font-size: 24px; /* Adjust the icon size as needed */
+}
+
+.red-text {
+  color: red; /* Change text color to red */
+  margin-left: 5px; /* Add spacing to the left of the text */
+}
+
+.icon {
+  color: red; 
+  margin-left: 15px; 
+  margin-right: 5px;
+}
+
+.rotate-icon {
+  transform: rotate(90deg); /* Rotate the icon 90 degrees */
+}
+
+/* Add more styles for other components here */
+
